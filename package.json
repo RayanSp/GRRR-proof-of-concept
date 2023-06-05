@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node": "^20.2.0"
+  },
+  "name": "grrr-proof-of-concept",
+  "description": "> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayanSp/GRRR-proof-of-concept.git"
+  },
+  "author": "Rayan Spall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RayanSp/GRRR-proof-of-concept/issues"
+  },
+  "homepage": "https://github.com/RayanSp/GRRR-proof-of-concept#readme"
+}
