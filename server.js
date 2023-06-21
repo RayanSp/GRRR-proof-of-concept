@@ -47,10 +47,8 @@ server.get("/oceans", (request, response) => {
   });
 });
 
-server.get("/rivers", (request, response) => {
-    let riversUrl = url + "/rivers";
-  
-    fetchJson(riversUrl).then((data) => {
+server.get("/rivers", (request, response) => {  
+    fetchJson(url).then((data) => {
     console.log(data)
       response.render('rivers', data);
     });

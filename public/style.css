@@ -58,7 +58,7 @@ body {
 
 
 /* main styling  */
- 
+
 .main-title {
     background-color: var(--clr-darkblue);
     height: 6rem;
@@ -74,6 +74,13 @@ body {
 .ocean-system {
     width: 100%;
     height: auto;
+}
+
+.main-rivers {
+    justify-content: center;    
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-systems {
@@ -132,6 +139,7 @@ footer {
 }
 
 .newsletter {
+    padding-top: 1rem;
     margin-top: 2rem;
     margin-left: .5rem;
     color: white;
@@ -194,7 +202,9 @@ footer {
 .copyright {
     margin-top: 2rem;
     font-size: small;
-    font-weight: lighter
+    font-weight: lighter;
+    color: white;
+    padding-left: .5rem;
 }
 
 
@@ -204,7 +214,9 @@ footer {
 .main-title-2 {
     background-color: var(--clr-darkblue);
     height: 6rem;
+    cursor: url('animated-fish.jpeg'), auto; 
 }
+
 
 .main-title-2 h1 {
     text-align: center;
@@ -269,4 +281,37 @@ input[type="radio"]{
 
 .accordion input[type="radio"]:checked + label::before {
     content: '-';
+}
+
+
+/* MEDIA QUERIES  */
+
+@media screen and (min-width: 930px) {
+
+    .ocean-footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        position: relative;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .newsletter-form {
+        padding-left: 4rem;
+        padding-top: 1rem;
+    }
+
+    .footer-ul {
+        margin-right: 5rem;
+    }
+
+    .copyright {
+        margin-top: 2rem;
+        font-size: small;
+        font-weight: lighter;
+        color: white;
+        padding-left: 4rem;
+    }
+
 }
