@@ -195,3 +195,72 @@ footer {
     font-size: small;
     font-weight: lighter
 }
+
+
+
+/* River page  */
+
+.main-title-2 {
+    background-color: var(--clr-darkblue);
+    height: 6rem;
+}
+
+.main-title-2 h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    color: white;
+}
+
+.accordion {
+    margin: 60px auto;
+    width: 100%;
+}
+
+.accordion li {
+    list-style: none;
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid var(--clr-darkblue);
+    border-radius: 8px;
+}
+
+.accordion li label {
+    display: flex;
+    color: var(--clr-darkblue);
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+label::before {
+    content: "+";
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content {
+    font-weight: lighter;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s, padding .5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::before {
+    content: '-';
+}
