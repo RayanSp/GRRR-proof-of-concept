@@ -51,10 +51,11 @@ server.get("/rivers", (request, response) => {
     let riversUrl = url + "/rivers";
   
     fetchJson(riversUrl).then((data) => {
-      response.render("rivers", data);
+    console.log(data)
+      response.render('rivers', data);
     });
   });
-
+  
 // Start express op, haal het ingestelde poortnummer op
 
 server.set("port", process.env.PORT || 8000);

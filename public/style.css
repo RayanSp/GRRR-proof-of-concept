@@ -30,6 +30,7 @@ body {
 .header-img {
     width: 10rem;
     height: auto;
+    cursor: pointer;
 }
 
 .navbar-items {
@@ -212,14 +213,19 @@ footer {
     color: white;
 }
 
+/* main {
+    display: flex;
+    align-items: center;
+} */
+
 .accordion {
-    margin: 60px auto;
-    width: 100%;
+    margin: 30px auto;
+    width: 22rem;
 }
 
 .accordion li {
     list-style: none;
-    width: 80%;
+    /* width: 80%; */
     margin: 20px;
     padding: 10px;
     border: 2px solid var(--clr-darkblue);
