@@ -1,7 +1,4 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Ocean Cleanup
 
 ## Inhoudsopgave
 
@@ -9,24 +6,32 @@
   * [Gebruik](#gebruik)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
-  * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-
-## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+Maak een data driven website voor een opdrachtgever 
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
+
+
+## Tools
+ - Figma
+ - VSC
+
+## Technieken
+ - HTML
+ - CSS
+ - JS
+ - Node
 
 ## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
 
-## Bronnen
+ - Fork deze leertaak.
+ - Code klonen naar Github Desktop.
+ - Code open in VSC of een andere editor.
+ - Type NPM Install in de terminal
+ - Type NPM Start voor een localhost waar je de server live kan bekijken
+ - Project live zetten met Cyclic.sh of Railway
 
 ## Licentie
 
