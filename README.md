@@ -1,9 +1,10 @@
-<img width="398" alt="Schermafbeelding 2023-06-22 om 09 53 56" src="https://github.com/RayanSp/GRRR-proof-of-concept/assets/112861069/2441c54c-343a-4b58-8b9a-096f8866f01f">
-
 # Ocean Cleanup
 
+<img width="398" alt="Schermafbeelding 2023-06-22 om 09 53 56" src="https://github.com/RayanSp/GRRR-proof-of-concept/assets/112861069/2441c54c-343a-4b58-8b9a-096f8866f01f">
 
-## Inhoudsopgave
+
+
+## Inhoudsopgave📚
 
   * [Beschrijving](#beschrijving)
   * [Gebruik](#gebruik)
