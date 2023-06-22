@@ -11,23 +11,23 @@
   * [Installatie](#installatie)
   * [Licentie](#licentie)
 
-## Beschrijving
+## Beschrijving📃
 Maak een data driven website voor een opdrachtgever 
 
-## Kenmerken
+## Kenmerken🖇️
+Dit is een project, gemaakt met Node, express en EJS. EJS genereerd HTML met JS. Verder hebben ik progressive enhancement toegepast, waarbij wij focussen op een toegankelijke website. Hiervoor gebruiken wij zoveel mogelijk HTML en CSS. Client-side javascript wordt later toegepast om de website aantrekkelijker te maken. 
 
-
-## Tools
+## Tools🧰
  - Figma
  - VSC
 
-## Technieken
+## Technieken🪚
  - HTML
  - CSS
  - JS
  - Node
 
-## Installatie
+## Installatie🛠️
 
  - Fork deze leertaak.
  - Code klonen naar Github Desktop.
@@ -36,6 +36,6 @@ Maak een data driven website voor een opdrachtgever
  - Type NPM Start voor een localhost waar je de server live kan bekijken
  - Project live zetten met Cyclic.sh of Railway
 
-## Licentie
+## Licentie🔒
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
