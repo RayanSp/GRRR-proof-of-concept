@@ -1,33 +1,42 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Ocean Cleanup
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+<img width="398" alt="Schermafbeelding 2023-06-22 om 09 53 56" src="https://github.com/RayanSp/GRRR-proof-of-concept/assets/112861069/2441c54c-343a-4b58-8b9a-096f8866f01f">
 
-## Inhoudsopgave
+
+
+## Inhoudsopgave📚
 
   * [Beschrijving](#beschrijving)
   * [Gebruik](#gebruik)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
-  * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+## Beschrijving📃
+Maak een data driven website voor een opdrachtgever 
 
-## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+## Kenmerken🖇️
+Dit is een project, gemaakt met Node, express en EJS. EJS genereerd HTML met JS. Verder hebben ik progressive enhancement toegepast, waarbij wij focussen op een toegankelijke website. Hiervoor gebruiken wij zoveel mogelijk HTML en CSS. Client-side javascript wordt later toegepast om de website aantrekkelijker te maken. 
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
+## Tools🧰
+ - Figma
+ - VSC
 
-## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+## Technieken🪚
+ - HTML
+ - CSS
+ - JS
+ - Node
 
-## Bronnen
+## Installatie🛠️
 
-## Licentie
+ - Fork deze leertaak.
+ - Code klonen naar Github Desktop.
+ - Code open in VSC of een andere editor.
+ - Type NPM Install in de terminal
+ - Type NPM Start voor een localhost waar je de server live kan bekijken
+ - Project live zetten met Cyclic.sh of Railway
+
+## Licentie🔒
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
